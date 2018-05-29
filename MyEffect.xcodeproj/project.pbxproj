@@ -7,21 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B8E3EDC20B4BDDF004C02CA /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E3EDB20B4BDDF004C02CA /* TabViewController.swift */; };
+		4B8E3EE120B4E5E4004C02CA /* MaterialComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8E3EE020B4E5E4004C02CA /* MaterialComponents.framework */; };
+		4B8E3EE520B4E8CE004C02CA /* NavigationBarTypicalUseExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E3EE420B4E8CE004C02CA /* NavigationBarTypicalUseExample.swift */; };
+		4B8E3EE720B4E962004C02CA /* NavigationBarTypicalUseSwiftExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E3EE620B4E962004C02CA /* NavigationBarTypicalUseSwiftExample.swift */; };
+		4B8E3EE920B4EAC4004C02CA /* NavigationBarTypicalUseExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E3EE820B4EAC4004C02CA /* NavigationBarTypicalUseExample.m */; };
+		4B8E3EF220B4F8A6004C02CA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E3EF120B4F8A6004C02CA /* MainViewController.swift */; };
+		4B8E3EF820B53AA9004C02CA /* FontAwesome_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B8E3EF720B53AA9004C02CA /* FontAwesome_swift.framework */; };
+		4B8E3EFA20B5828D004C02CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8E3EF920B5828D004C02CA /* Main.storyboard */; };
+		4BDF1D0820B76B950084685B /* ActionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BDF1D0720B76B950084685B /* ActionDetailViewController.swift */; };
 		4BF5DC0A20B4349700FBB76A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5DC0920B4349700FBB76A /* AppDelegate.swift */; };
 		4BF5DC0C20B4349800FBB76A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5DC0B20B4349800FBB76A /* ViewController.swift */; };
-		4BF5DC0F20B4349800FBB76A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF5DC0D20B4349800FBB76A /* Main.storyboard */; };
 		4BF5DC1120B4349E00FBB76A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF5DC1020B4349E00FBB76A /* Assets.xcassets */; };
 		4BF5DC1420B4349E00FBB76A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF5DC1220B4349E00FBB76A /* LaunchScreen.storyboard */; };
+		4BF5DC1F20B4410100FBB76A /* ActionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF5DC1E20B4410100FBB76A /* ActionCollectionViewCell.swift */; };
+		A12B260B8B013137EC4F4729 /* Pods_MyEffect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB1A55A81BEAAF59587A75D /* Pods_MyEffect.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B8E3EDB20B4BDDF004C02CA /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		4B8E3EDD20B4E52C004C02CA /* MyEffect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyEffect-Bridging-Header.h"; sourceTree = "<group>"; };
+		4B8E3EE020B4E5E4004C02CA /* MaterialComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8E3EE420B4E8CE004C02CA /* NavigationBarTypicalUseExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarTypicalUseExample.swift; sourceTree = "<group>"; };
+		4B8E3EE620B4E962004C02CA /* NavigationBarTypicalUseSwiftExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarTypicalUseSwiftExample.swift; sourceTree = "<group>"; };
+		4B8E3EE820B4EAC4004C02CA /* NavigationBarTypicalUseExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationBarTypicalUseExample.m; sourceTree = "<group>"; };
+		4B8E3EEA20B4EB08004C02CA /* NavigationBarTypicalUseExampleSupplemental.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationBarTypicalUseExampleSupplemental.h; sourceTree = "<group>"; };
+		4B8E3EF120B4F8A6004C02CA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4B8E3EF320B52FF4004C02CA /* SwiftSVG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftSVG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8E3EF720B53AA9004C02CA /* FontAwesome_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FontAwesome_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8E3EF920B5828D004C02CA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4BDF1D0720B76B950084685B /* ActionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionDetailViewController.swift; sourceTree = "<group>"; };
 		4BF5DC0620B4349700FBB76A /* MyEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF5DC0920B4349700FBB76A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BF5DC0B20B4349800FBB76A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4BF5DC0E20B4349800FBB76A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BF5DC1020B4349E00FBB76A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BF5DC1320B4349E00FBB76A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BF5DC1520B4349E00FBB76A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF5DC1E20B4410100FBB76A /* ActionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCollectionViewCell.swift; sourceTree = "<group>"; };
+		85C60E4E7CBD51953F42A52B /* Pods-MyEffect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyEffect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyEffect/Pods-MyEffect.debug.xcconfig"; sourceTree = "<group>"; };
+		F59829936042955F35610943 /* Pods-MyEffect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyEffect.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyEffect/Pods-MyEffect.release.xcconfig"; sourceTree = "<group>"; };
+		FDB1A55A81BEAAF59587A75D /* Pods_MyEffect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyEffect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +54,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8E3EF820B53AA9004C02CA /* FontAwesome_swift.framework in Frameworks */,
+				4B8E3EE120B4E5E4004C02CA /* MaterialComponents.framework in Frameworks */,
+				A12B260B8B013137EC4F4729 /* Pods_MyEffect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CB480A115C8718033105450 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B8E3EF720B53AA9004C02CA /* FontAwesome_swift.framework */,
+				4B8E3EF320B52FF4004C02CA /* SwiftSVG.framework */,
+				4B8E3EE020B4E5E4004C02CA /* MaterialComponents.framework */,
+				FDB1A55A81BEAAF59587A75D /* Pods_MyEffect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4BF5DBFD20B4349700FBB76A = {
 			isa = PBXGroup;
 			children = (
 				4BF5DC0820B4349700FBB76A /* MyEffect */,
 				4BF5DC0720B4349700FBB76A /* Products */,
+				6645D50891F9F7B1185BA063 /* Pods */,
+				3CB480A115C8718033105450 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +97,30 @@
 			children = (
 				4BF5DC0920B4349700FBB76A /* AppDelegate.swift */,
 				4BF5DC0B20B4349800FBB76A /* ViewController.swift */,
-				4BF5DC0D20B4349800FBB76A /* Main.storyboard */,
 				4BF5DC1020B4349E00FBB76A /* Assets.xcassets */,
+				4B8E3EF920B5828D004C02CA /* Main.storyboard */,
 				4BF5DC1220B4349E00FBB76A /* LaunchScreen.storyboard */,
 				4BF5DC1520B4349E00FBB76A /* Info.plist */,
+				4BF5DC1E20B4410100FBB76A /* ActionCollectionViewCell.swift */,
+				4B8E3EDB20B4BDDF004C02CA /* TabViewController.swift */,
+				4B8E3EDD20B4E52C004C02CA /* MyEffect-Bridging-Header.h */,
+				4B8E3EE420B4E8CE004C02CA /* NavigationBarTypicalUseExample.swift */,
+				4B8E3EE620B4E962004C02CA /* NavigationBarTypicalUseSwiftExample.swift */,
+				4B8E3EE820B4EAC4004C02CA /* NavigationBarTypicalUseExample.m */,
+				4B8E3EEA20B4EB08004C02CA /* NavigationBarTypicalUseExampleSupplemental.h */,
+				4B8E3EF120B4F8A6004C02CA /* MainViewController.swift */,
+				4BDF1D0720B76B950084685B /* ActionDetailViewController.swift */,
 			);
 			path = MyEffect;
+			sourceTree = "<group>";
+		};
+		6645D50891F9F7B1185BA063 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85C60E4E7CBD51953F42A52B /* Pods-MyEffect.debug.xcconfig */,
+				F59829936042955F35610943 /* Pods-MyEffect.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BF5DC1820B4349E00FBB76A /* Build configuration list for PBXNativeTarget "MyEffect" */;
 			buildPhases = (
+				CAB193C1BD21412F4B34F031 /* [CP] Check Pods Manifest.lock */,
 				4BF5DC0220B4349700FBB76A /* Sources */,
 				4BF5DC0320B4349700FBB76A /* Frameworks */,
 				4BF5DC0420B4349700FBB76A /* Resources */,
+				3226A9A5E49CE81797A6FAEA /* [CP] Embed Pods Frameworks */,
+				A0F219A5D1AF9D6671346646 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +158,7 @@
 				TargetAttributes = {
 					4BF5DC0520B4349700FBB76A = {
 						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -122,35 +185,101 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8E3EFA20B5828D004C02CA /* Main.storyboard in Resources */,
 				4BF5DC1420B4349E00FBB76A /* LaunchScreen.storyboard in Resources */,
 				4BF5DC1120B4349E00FBB76A /* Assets.xcassets in Resources */,
-				4BF5DC0F20B4349800FBB76A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3226A9A5E49CE81797A6FAEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyEffect/Pods-MyEffect-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyEffect/Pods-MyEffect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0F219A5D1AF9D6671346646 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyEffect/Pods-MyEffect-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyEffect/Pods-MyEffect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAB193C1BD21412F4B34F031 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyEffect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4BF5DC0220B4349700FBB76A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8E3EDC20B4BDDF004C02CA /* TabViewController.swift in Sources */,
+				4B8E3EE720B4E962004C02CA /* NavigationBarTypicalUseSwiftExample.swift in Sources */,
+				4BDF1D0820B76B950084685B /* ActionDetailViewController.swift in Sources */,
+				4B8E3EE520B4E8CE004C02CA /* NavigationBarTypicalUseExample.swift in Sources */,
 				4BF5DC0C20B4349800FBB76A /* ViewController.swift in Sources */,
+				4BF5DC1F20B4410100FBB76A /* ActionCollectionViewCell.swift in Sources */,
 				4BF5DC0A20B4349700FBB76A /* AppDelegate.swift in Sources */,
+				4B8E3EE920B4EAC4004C02CA /* NavigationBarTypicalUseExample.m in Sources */,
+				4B8E3EF220B4F8A6004C02CA /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4BF5DC0D20B4349800FBB76A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4BF5DC0E20B4349800FBB76A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4BF5DC1220B4349E00FBB76A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,8 +407,10 @@
 		};
 		4BF5DC1920B4349E00FBB76A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85C60E4E7CBD51953F42A52B /* Pods-MyEffect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyEffect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -288,6 +419,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = lamberto.MyEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyEffect/MyEffect-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,8 +428,10 @@
 		};
 		4BF5DC1A20B4349E00FBB76A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F59829936042955F35610943 /* Pods-MyEffect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyEffect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +440,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = lamberto.MyEffect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyEffect/MyEffect-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

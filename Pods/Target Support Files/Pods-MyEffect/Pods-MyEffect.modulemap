@@ -1,0 +1,6 @@
+framework module Pods_MyEffect {
+  umbrella header "Pods-MyEffect-umbrella.h"
+
+  export *
+  module * { export * }
+}
