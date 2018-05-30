@@ -10,17 +10,19 @@ import UIKit
 import MaterialComponents
 import FontAwesome_swift
 
+let actionsNames = ["Love Your Park Day - Lardner's Point Park (Tacony)", "Mitzvag Food Project", "Virtual Volunteering with MindRight", "Elementary School Library Team Member", "Cleaner Parks Volunteering", "Love Your Park Day - Lardner's Point Park (Tacony)", "Mitzvag Food Project", "Virtual Volunteering with MindRight", "Elementary School Library Team Member", "Cleaner Parks Volunteering", "Love Your Park Day - Lardner's Point Park (Tacony)", "Mitzvag Food Project", "Virtual Volunteering with MindRight", "Elementary School Library Team Member"]
+let actionsImages = [UIImage(named: "action1"), UIImage(named:"action2"), UIImage(named:"action3"), UIImage(named:"action4"), UIImage(named:"action5"), UIImage(named:"action6"), UIImage(named:"action7"), UIImage(named:"action8"), UIImage(named:"action9"), UIImage(named:"action10"), UIImage(named:"action11"), UIImage(named:"action12"), UIImage(named:"action13"), UIImage(named:"action14")]
+let actionsRate: Array<Array<Int>> = [[21,25], [2,27], [25,25], [11,18], [1,15], [17,20], [20,30], [13,28], [19,21], [3,9], [6,18], [4,34], [12,15], [23,23]]
+
+var actionsDate: Array<Array<String>> = [["2018-02-27"] , ["2018-03-19","2018-05-02"], ["2018-02-27","2018-03-27"], ["2018-04-12"] , ["2018-01-22","2018-02-20"] , ["2018-03-30"] , ["2018-05-11","2018-03-24"], ["2018-02-12","2018-02-27"], ["2018-06-09", "2018-06-29"], ["2018-04-29"], ["2018-01-01"], ["2018-02-15"], ["2018-07-18","2018-07-19"], ["2018-03-10","2018-03-16"]]
+
+let actionsCredits = [5, 1, 2, 8, 5, 7, 2 ,3 , 3, 8, 9, 3, 9, 6]
+
+let actionsCategory = [[#imageLiteral(resourceName: "zero-hunger"), #imageLiteral(resourceName: "life-land"), #imageLiteral(resourceName: "industry")], [#imageLiteral(resourceName: "good-health"), #imageLiteral(resourceName: "sustainable")], [#imageLiteral(resourceName: "quality-education")],[#imageLiteral(resourceName: "climate-action")], [#imageLiteral(resourceName: "quality-education"),#imageLiteral(resourceName: "climate-action")], [ #imageLiteral(resourceName: "sustainable"), #imageLiteral(resourceName: "quality-education")], [#imageLiteral(resourceName: "industry") ,#imageLiteral(resourceName: "good-health"), #imageLiteral(resourceName: "sustainable")], [#imageLiteral(resourceName: "zero-hunger")],[#imageLiteral(resourceName: "life-land")],[#imageLiteral(resourceName: "industry")],[#imageLiteral(resourceName: "zero-hunger"), #imageLiteral(resourceName: "life-land"), #imageLiteral(resourceName: "industry")], [#imageLiteral(resourceName: "good-health"), #imageLiteral(resourceName: "sustainable")], [#imageLiteral(resourceName: "quality-education")],[#imageLiteral(resourceName: "climate-action")]]
+
+
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
-    let actionsNames = ["Love Your Park Day - Lardner's Point Park (Tacony)", "Mitzvag Food Project", "Virtual Volunteering with MindRight", "Elementary School Library Team Member", "Cleaner Parks Volunteering", "Love Your Park Day - Lardner's Point Park (Tacony)", "Mitzvag Food Project", "Virtual Volunteering with MindRight", "Elementary School Library Team Member", "Cleaner Parks Volunteering", "Love Your Park Day - Lardner's Point Park (Tacony)", "Mitzvag Food Project", "Virtual Volunteering with MindRight", "Elementary School Library Team Member"]
-    let actionsImages = [UIImage(named: "action1"), UIImage(named:"action2"), UIImage(named:"action3"), UIImage(named:"action4"), UIImage(named:"action5"), UIImage(named:"action6"), UIImage(named:"action7"), UIImage(named:"action8"), UIImage(named:"action9"), UIImage(named:"action10"), UIImage(named:"action11"), UIImage(named:"action12"), UIImage(named:"action13"), UIImage(named:"action14")]
-    let actionsRate: Array<Array<Int>> = [[21,25], [12,27], [25,25], [11,18], [1,15], [17,20], [20,30], [13,28], [19,21], [3,9], [6,18], [4,34], [12,15], [23,23]]
-    
-    var actionsDate: Array<Array<String>> = [["2018-02-27"] , ["2018-03-19","2018-05-02"], ["2018-02-27","2018-03-27"], ["2018-04-12"] , ["2018-01-22","2018-02-20"] , ["2018-03-30"] , ["2018-05-11","2018-03-24"], ["2018-02-12","2018-02-27"], ["2018-06-09", "2018-06-29"], ["2018-04-29"], ["2018-01-01"], ["2018-02-15"], ["2018-07-18","2018-07-19"], ["2018-03-10","2018-03-16"]]
-
-    let actionsCredits = [5, 1, 2, 8, 5, 7, 2 ,3 , 3, 8, 9, 3, 9, 6]
-    
-    let actionsCategory = [[#imageLiteral(resourceName: "zero-hunger"), #imageLiteral(resourceName: "life-land"), #imageLiteral(resourceName: "industry")], [#imageLiteral(resourceName: "good-health"), #imageLiteral(resourceName: "sustainable")], [#imageLiteral(resourceName: "quality-education")],[#imageLiteral(resourceName: "climate-action")], [#imageLiteral(resourceName: "quality-education"),#imageLiteral(resourceName: "climate-action")], [ #imageLiteral(resourceName: "sustainable"), #imageLiteral(resourceName: "quality-education")], [#imageLiteral(resourceName: "industry") ,#imageLiteral(resourceName: "good-health"), #imageLiteral(resourceName: "sustainable")], [#imageLiteral(resourceName: "zero-hunger")],[#imageLiteral(resourceName: "life-land")],[#imageLiteral(resourceName: "industry")],[#imageLiteral(resourceName: "zero-hunger"), #imageLiteral(resourceName: "life-land"), #imageLiteral(resourceName: "industry")], [#imageLiteral(resourceName: "good-health"), #imageLiteral(resourceName: "sustainable")], [#imageLiteral(resourceName: "quality-education")],[#imageLiteral(resourceName: "climate-action")]]
     
     override func viewDidLoad() {
         super.viewDidLoad()
